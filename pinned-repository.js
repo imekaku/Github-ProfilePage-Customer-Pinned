@@ -15,8 +15,17 @@
     // Add YOUR NAME!
     var username = 'username';
 
+    // Get the current page URL
+    var currentPageUrl = window.location.href;
+
+    // Check if the current URL contains the specified username
+    if (!currentPageUrl.includes(`github.com/${username}`)) {
+        // If it does not contain, do not execute the script
+        return;
+    }
+
     // Add YOUR REPOSITORIES!
-    var repoNames = ['repository-name-02', 'repository-name-02'];
+    var repoNames = ['repository-name-01', 'repository-name-02'];
 
     repoNames.forEach(function(repoName) {
         var repoURL = `https://github.com/${username}/${repoName}`;
