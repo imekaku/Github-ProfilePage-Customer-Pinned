@@ -1,12 +1,13 @@
-# Github-ProfilePage-Customer-Pinned
+## Github-ProfilePage-Customer-Pinned
 
-在使用Github的时候，Profile页面中展示的Repository只能是Public的，无法Pin Private Repository，所以添加此脚本用来自定义Repository列表。
+When using GitHub, only Public Repositories can be displayed on the Profile page, and it's not possible to pin Private Repositories. Therefore, this script is added to customize the Repository list.
 
-# Steps
+## Steps
 
-1. 这是一个油猴(Tempermonkey)脚本，所以需要在浏览器中安装此插件(地址: https://www.tampermonkey.net)
-2. 添加此脚本到油猴插件中：点击插件，然后点击`Create a new script`，粘贴此脚本
-3. 修改脚本中的用户名和需要展示的仓库列表，在脚本中的代码如下：
+1. This is a Tampermonkey script, so you need to install this extension in your browser (URL: https://www.tampermonkey.net)
+2. Add this script to the Tampermonkey extension: click on the extension, then click `Create a new script`, and paste this script.
+3. Modify the script with your username and the list of repositories you wish to display. The code in the script is as follows:
+
 ```
     // Add YOUR NAME!
     var username = 'username';
